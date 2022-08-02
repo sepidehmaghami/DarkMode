@@ -8,7 +8,7 @@ const  App = () => {
     <div className="App"
     style={{
       background : theme === 'dark' ? '#212121' : '#ffffff',
-      transition: '.4s all',
+      transition: '.5s cubic-bezier(0,.33,1,.52)',
     }}
     >
       
